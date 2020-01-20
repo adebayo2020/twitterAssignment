@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="twitter.png" rel="icon" type="image/png"/>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            #container{
+                width:98%;
+                height:96vh;
+            }
+            #leftpartition{
+                background-image: url('icon.jpg');
+                background-repeat: no-repeat;
+                background-size: 1500px;
+                background-position: -200px -240px;
+                background-blend-mode: soft-light;
+                float:left;
+                width:50%;
+                height:91vh;
+                background-color:#00a2ed;
+            } 
+            #rightpartition{
+            border-bottom:1px solid grey;
+            border-top:1px solid grey;
+            float:left;
+            width:50%;
+            height:91vh;
+            }
+            img{
+                float:left;
+            }
+            #left-content{
+                margin-top:35.25%;
+                margin-left: 25%;
+                width:80%;
+                height:25%;
+            }
+            .text{
+                color:white;
+                padding-left:35px;
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+            }
+            #left-content-top, #left-content-middle, #left-content-down{
+                width:100%;
+                height: 33.33%;
+            }
+            h2{
+                padding-top: 6px;
+                padding-left: 50px;
+            }
+            .content-text{
+                text-align: right;
+            }
+            #right-top-form{
+                margin-left:20%;
+                margin-top:20px;
+                width:82%;
+               height:50px;
+            }
+            #login-id, #password{
+                padding-left:6px;
+                font-size: 15px;
+                height:30px;
+            }
+            #top-right-log-in{
+                font-weight: bold;
+                font-size:15px;
+                background-color: white;
+                color:#00a2ed;
+                width:60px;
+                height:30px;
+                border:1px solid grey;
+                border-radius: 20px;
+            }
+            #forgot-password{
+                padding-left:0px;
+                color:grey;
+            }
+            #right-center-content{
+                width:55%;
+                height:50%;
+                margin-top:70px;
+                margin-left:25%;
+            }
+            #right-twitter-logo{
+                width:100%;
+                height:40px;
+            }
+            #twitter-logo{
+                width:50px;
+                height:40px;
+            }
+            #right-center-content-text{
+                padding-top:15px;
+                height:50px;
+            }
+            #see-right-now{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                padding-bottom: 25px;
+            }
+            #join-twitter-today{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                font-weight: bold;
+                font-size: 20px;             
+            }
+            #sign-up-button, #log-in-button{
+                font-weight: bold;
+                font-size:15px;
+                width:100%;
+                height:30px;
+                border-radius: 20px;
+                border:1px solid grey;
+            }
+            #sign-up-button{
+                margin-top: 40%;
+                background-color: #00a2ed;
+                color:white;
+            }
+            #log-in-button{
+                margin-top:15px;
+                background-color: white;
+                color:#00a2ed;
+            }
+            #forgot-password{
+                margin-left:38%;
+            }
+            #nav-footer{
+                float:right;
+                width:100%;
+               height:3vh;
+            }
+            #anchorsDiv{
+                margin: 0.1vh 2%;
+                width:96%;
+                height: 2vh;
+                padding-left:40px;
+            }
+            #anchor{
+                margin-left:2px;
+                margin-right: 12px;
+            }
+            a{
+                font-family: Arial, Helvetica, sans-serif;
+               color:grey;
+               text-align: center;
+               font-size: 12px;
+                }
+            li{
+                list-style-type: none;
+                display: inline;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="leftpartition">
+                <div id="left-content"> 
+                    <div class="text" id="left-content-top">
+                        <img src="icons8-search-30.png"/>
+                        <h2>Follow your interests</h2>
+                    </div>
+                    <div class="text" id="left-content-middle">
+                        <img src="people.png"/>
+                        <h2>Hear what people are talking about</h2>
+                    </div>
+                    <div class="text" id="left-content-down">
+                        <img src="conversation.png"/>
+                        <h2>Join the conversions.</h2>
+                    </div>
+    
+                </div>
+            </div>
+            <div id="rightpartition">
+                <div id="right-top-form">
+                    <form>
+                        <input id="login-id" type="text" type="number" placeholder="Phone, email or username">
+                        <input id="password" type="password" placeholder="password">
+                        <button id="top-right-log-in">Log in</button>
+                        <label id="forgot-password">Forgot password?</label>
+                    </form>
+                </div>
+                <div id="right-center-content">
+                    <div id="right-twitter-logo"><img id="twitter-logo"src="twitter.png"/></div>
+                    <div id="right-center-content-text">
+                        <h1 id="see-right-now">See whats happening in the world right now</h1>
+                        <h3 id="join-twitter-today">Join Twitter today.</h3>
+                    </div>
+                    <div><button id="sign-up-button">Sign up</button></div>
+                    <div><button id="log-in-button">Log in</button></div>
+                </div>
+            </div>
+            <div id="nav-footer">
+                <div id="anchorsDiv">
+                    <ul>
+                        <li><a id="anchor">About</li></a></li>
+                        <li><a id="anchor">Help Center</a></li>
+                        <li><a id="anchor">Blog</a></li>
+                        <li><a id="anchor">Status</a></li>
+                        <li><a id="anchor">Jobs</a></li>
+                        <li><a id="anchor">Terms</a></li>
+                        <li><a id="anchor">Privacy Policy</a></li>
+                        <li><a id="anchor">Cookies</a></li>
+                        <li><a id="anchor">Ads info</a></li>
+                        <li><a id="anchor">Brand</a></li>
+                        <li><a id="anchor">Apps</a></li>
+                        <li><a id="anchor">Advertise</a></li>
+                        <li><a id="anchor">Marketing</a></li>
+                        <li><a id="anchor">Business</a></li>
+                        <li><a id="anchor">Developers</a></li>
+                        <li><a id="anchor">Directory</a></li>
+                        <li><a id="anchor">Settings</a></li>
+                        <li><a id="anchor">&copy;2020Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
